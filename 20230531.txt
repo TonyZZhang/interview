@@ -1,0 +1,13 @@
+k8s
+
+多集群管理
+controller原理
+scheduler阶段以及原理
+informer流程原理
+
+golang 
+GMP 
+gc
+
+算法
+动态规划
