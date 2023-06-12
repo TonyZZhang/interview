@@ -11,3 +11,15 @@ gc
 
 算法
 动态规划
+
+k8s
+
+1.service account
+2.ipvs ipset
+3.静态pod 不受api server管理的，由kubelet创建管理的
+4.pod 重启策略 always never onfali
+5.pod升级策略 recreate  rollingupdate
+6.calico bgp 不需要封包解包  flannel是overlay
+具体来说，在 host-gw 模式下，Flannel 会为每个节点创建一个虚拟网络，节点上的容器会加入到该虚拟网络中。Flannel 会为每个节点分配一个唯一的子网，节点上的容器会从该子网中分配一个 IP 地址。
+当容器需要发送数据包时，它会将数据包发送到主机的 IP 地址，主机会根据目标 IP 地址找到目标容器所在的节点，并将数据包转发给目标节点。目标节点会将数据包转发给目标容器。
+7.pv的生命周期 可使用，bound, release, falied
