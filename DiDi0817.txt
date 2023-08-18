@@ -1,0 +1,8 @@
+1.K8S 中控制 Pod 内容器启动顺序
+https://aber.sh/articles/Control-the-startup-sequence-of-containers-in-Pod/
+
+2.K8S灰度发布设计
+
+3.自定义的资源对象可以被k8s当作普通的对象，如何注册的
+
+4.cpu的使用率与负载
